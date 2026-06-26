@@ -29,222 +29,325 @@
     <div class="background">
       <div class="gradient one"></div>
       <div class="gradient two"></div>
+      <div class="grid-overlay"></div>
     </div>
 
-    <nav>
-      <div class="logo">
-        <img src="assets/logo.png" alt="InvoAIce" />
-        <span>InvoAIce</span>
-      </div>
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <img src="assets/logo.png" alt="InvoAIce" />
+          <span>InvoAIce</span>
+        </a>
 
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="terms.html">Terms</a>
-        <a href="support.html">Support</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html" class="active">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="support.html">Support</a>
+        </div>
+
+        <a href="index.html" class="nav-button"> Back to Website </a>
       </div>
     </nav>
 
     <section class="features">
-      <h1 style="font-size: 58px; text-align: center; margin-bottom: 20px">
-        Privacy Policy
-      </h1>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"> LEGAL </span>
 
-      <p class="section-description">Last Updated: June 25, 2026</p>
+          <h2>Privacy Policy</h2>
 
-      <div class="card" style="max-width: 950px; margin: auto">
-        <h2>1. Introduction</h2>
+          <p>
+            Your privacy matters. This Privacy Policy explains what information
+            InvoAIce collects, how we use it, how we protect it, and the choices
+            you have regarding your data.
+          </p>
 
-        <p>
-          Aurenix Apps ("we", "our", or "us") respects your privacy. This
-          Privacy Policy explains how InvoAIce collects, uses, stores, and
-          protects your information when you use our application.
-        </p>
+          <p
+            style="margin-top: 20px; color: var(--text-light); font-weight: 600"
+          >
+            Last Updated: June 25, 2026
+          </p>
+        </div>
 
-        <br />
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>📋 Introduction</h2>
 
-        <h2>2. Information We Collect</h2>
+          <p>
+            Aurenix Apps ("we", "our", or "us") respects your privacy. This
+            Privacy Policy explains how InvoAIce collects, stores, uses, and
+            protects your information when you use our application and related
+            services.
+          </p>
+        </div>
 
-        <p>Depending on how you use InvoAIce, we may collect:</p>
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>📦 Information We Collect</h2>
 
-        <ul>
-          <li>Name and email address (when signing in)</li>
+          <p>
+            Depending on how you use InvoAIce, we may collect the following
+            information:
+          </p>
 
-          <li>Invoice information you create</li>
+          <ul style="margin-top: 18px; padding-left: 22px; line-height: 2">
+            <li>Name and email address when signing in.</li>
+            <li>Invoice information you create.</li>
+            <li>Business profile information.</li>
+            <li>Invoice preferences and application settings.</li>
+            <li>Your subscription status.</li>
+            <li>
+              Voice input used for AI invoice generation when you choose to use
+              voice features.
+            </li>
+          </ul>
+        </div>
 
-          <li>Business profile information</li>
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>🔐 Authentication</h2>
 
-          <li>Subscription status</li>
+          <p>
+            You may sign in using Apple Sign In or Google Sign-In.
+            Authentication is securely managed using Firebase Authentication. We
+            never have access to or store your account passwords.
+          </p>
+        </div>
 
-          <li>Application preferences and settings</li>
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>☁️ Invoice Data</h2>
 
-          <li>
-            Voice input used for AI invoice generation (only when you choose to
-            use voice features)
-          </li>
-        </ul>
+          <p>
+            Your invoices, clients, business information, preferences, and
+            application settings are securely stored within your personal
+            Firebase Cloud Firestore database. Your information belongs to you.
+          </p>
+        </div>
 
-        <br />
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>🤖 AI Features</h2>
 
-        <h2>3. Authentication</h2>
+          <p>
+            When you use AI invoice generation, the information you provide may
+            be securely processed by our AI service provider solely for the
+            purpose of generating invoice content. Only the information required
+            to complete your request is processed.
+          </p>
+        </div>
 
-        <p>
-          You may sign in using Apple Sign In or Google Sign-In. Authentication
-          is securely managed through Firebase Authentication. We do not have
-          access to your passwords.
-        </p>
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>🎤 Voice Input</h2>
 
-        <br />
+          <p>
+            Voice recordings are processed only after you explicitly start voice
+            input. Speech recognition is used solely to convert your spoken
+            words into invoice information and is never activated without your
+            permission.
+          </p>
+        </div>
 
-        <h2>4. Invoice Data</h2>
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>🔔 Notifications</h2>
 
-        <p>
-          Invoices, clients, business information, and settings are securely
-          stored in your personal Firebase Cloud Firestore database. Your data
-          belongs to you.
-        </p>
+          <p>
+            If you allow notifications, InvoAIce may send reminders about
+            invoice due dates, overdue invoices, and payment tracking. You can
+            disable notifications at any time from your device settings.
+          </p>
+        </div>
 
-        <br />
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>💳 Subscriptions</h2>
 
-        <h2>5. AI Features</h2>
+          <p>
+            Paid subscriptions are securely processed through Apple's App Store.
+            We do not receive, collect, or store your payment card information.
+          </p>
+        </div>
 
-        <p>
-          When you use AI invoice generation, the information you provide may be
-          securely processed by our AI provider to generate invoice content.
-          Only the information necessary to complete your request is processed.
-        </p>
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>📊 Analytics</h2>
 
-        <br />
+          <p>
+            We may collect anonymous diagnostic and performance data to improve
+            reliability, fix bugs, and enhance the user experience. Your invoice
+            content is never used for advertising purposes.
+          </p>
+        </div>
 
-        <h2>6. Voice Input</h2>
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>🛡️ Data Security</h2>
 
-        <p>
-          Voice recordings are processed only after you explicitly start voice
-          input. Speech recognition is used solely to convert your speech into
-          invoice information.
-        </p>
+          <p>
+            We protect your information using industry-standard security
+            practices, encrypted communication, secure cloud infrastructure, and
+            Firebase security features to help safeguard your data.
+          </p>
+        </div>
 
-        <br />
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>✅ Your Rights</h2>
 
-        <h2>7. Notifications</h2>
+          <p>
+            Depending on your location and applicable laws, you may have the
+            right to:
+          </p>
 
-        <p>
-          If you grant notification permission, InvoAIce may send reminders for
-          invoice due dates, overdue invoices, and payment tracking.
-        </p>
+          <ul style="margin-top: 18px; padding-left: 22px; line-height: 2">
+            <li>Access your personal information.</li>
+            <li>Update or correct your information.</li>
+            <li>Delete your account.</li>
+            <li>Delete your invoice data.</li>
+            <li>Stop using cloud synchronization.</li>
+          </ul>
+        </div>
 
-        <br />
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>🗑️ Account Deletion</h2>
 
-        <h2>8. Subscriptions</h2>
+          <p>
+            You may permanently delete your account from within InvoAIce. When
+            your account is deleted, your authentication account and associated
+            cloud data are permanently removed, subject to technical limitations
+            and any legal obligations.
+          </p>
+        </div>
 
-        <p>
-          Subscriptions are processed securely through Apple's App Store. We do
-          not collect or store your payment information.
-        </p>
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>👶 Children's Privacy</h2>
 
-        <br />
+          <p>
+            InvoAIce is not intended for children under the age of 13. We do not
+            knowingly collect personal information from children.
+          </p>
+        </div>
 
-        <h2>9. Analytics</h2>
+        <div
+          class="feature-card"
+          style="max-width: 900px; margin: auto; margin-bottom: 32px"
+        >
+          <h2>📝 Changes to This Privacy Policy</h2>
 
-        <p>
-          We may collect anonymous diagnostic information to improve
-          reliability, performance, and user experience. No invoice content is
-          used for advertising.
-        </p>
+          <p>
+            We may update this Privacy Policy from time to time to reflect
+            changes in our services, legal requirements, or business practices.
+            The latest version will always be available on this page with an
+            updated revision date.
+          </p>
+        </div>
 
-        <br />
+        <div class="feature-card legal-card">
+          <h2>📧 Contact Us</h2>
 
-        <h2>10. Data Security</h2>
+          <p>
+            If you have any questions regarding this Privacy Policy or your
+            personal information, please contact us.
+          </p>
 
-        <p>
-          We use industry-standard security practices including encrypted
-          communication and secure cloud infrastructure provided by Firebase.
-        </p>
+          <p style="margin-top: 24px">
+            <strong>Aurenix Apps</strong>
 
-        <br />
+            <br /><br />
 
-        <h2>11. Your Rights</h2>
-
-        <p>You may:</p>
-
-        <ul>
-          <li>Access your information</li>
-
-          <li>Update your information</li>
-
-          <li>Delete your account</li>
-
-          <li>Delete all stored invoice data</li>
-
-          <li>Stop using cloud synchronization at any time</li>
-        </ul>
-
-        <br />
-
-        <h2>12. Account Deletion</h2>
-
-        <p>
-          Deleting your account from within InvoAIce permanently removes your
-          authentication account together with your associated cloud data,
-          subject to technical limitations and legal obligations.
-        </p>
-
-        <br />
-
-        <h2>13. Children's Privacy</h2>
-
-        <p>InvoAIce is not intended for children under the age of 13.</p>
-
-        <br />
-
-        <h2>14. Changes to this Policy</h2>
-
-        <p>
-          We may update this Privacy Policy from time to time. Changes become
-          effective immediately after publication.
-        </p>
-
-        <br />
-
-        <h2>15. Contact</h2>
-
-        <p>For questions regarding this Privacy Policy, contact:</p>
-
-        <p>
-          <strong>Aurenix Apps</strong>
-
-          <br /><br />
-
-          📧 aurenix.apps@gmail.com
-        </p>
+            📧
+            <a href="mailto:aurenix.apps@gmail.com"> aurenix.apps@gmail.com </a>
+          </p>
+        </div>
       </div>
     </section>
 
     <footer>
-      <div>
-        <img src="assets/logo.png" alt="" />
+      <div class="container footer-grid">
+        <div>
+          <img src="assets/logo.png" alt="InvoAIce" class="footer-logo" />
 
-        <h3>InvoAIce</h3>
+          <h3>InvoAIce</h3>
 
-        <p>AI-powered invoice management for modern businesses.</p>
-      </div>
+          <p>
+            AI-powered invoicing for freelancers, agencies and modern
+            businesses.
+          </p>
+        </div>
 
-      <div>
-        <h4>Links</h4>
+        <div>
+          <h4>Product</h4>
 
-        <a href="index.html">Home</a>
-        <a href="terms.html">Terms & Conditions</a>
-        <a href="support.html">Support</a>
-      </div>
+          <a href="index.html#features">Features</a>
 
-      <div>
-        <h4>Contact</h4>
+          <a href="index.html#screenshots">Screenshots</a>
 
-        <a href="mailto:aurenix.apps@gmail.com"> aurenix.apps@gmail.com </a>
+          <a href="index.html#pricing">Pricing</a>
 
-        <p>© <span class="current-year"></span> Aurenix Apps</p>
+          <a href="index.html#faq">FAQ</a>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+
+          <a href="privacy.html">Privacy Policy</a>
+
+          <a href="terms.html">Terms & Conditions</a>
+
+          <a href="support.html">Support</a>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+
+          <a href="mailto:aurenix.apps@gmail.com"> aurenix.apps@gmail.com </a>
+
+          <p>
+            Developed by
+            <strong>Aurenix Apps</strong>
+          </p>
+
+          <p>
+            ©
+            <span class="current-year"></span>
+            Aurenix Apps. All rights reserved.
+          </p>
+        </div>
       </div>
     </footer>
 
     <script src="js/script.js"></script>
   </body>
 </html>
+

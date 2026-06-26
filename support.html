@@ -6,7 +6,7 @@
 
     <title>Support • InvoAIce</title>
 
-    <meta name="description" content="Support for InvoAIce" />
+    <meta name="description" content="Support for InvoAIce by Aurenix Apps." />
 
     <link rel="stylesheet" href="css/style.css" />
 
@@ -26,159 +26,243 @@
     <div class="background">
       <div class="gradient one"></div>
       <div class="gradient two"></div>
+      <div class="grid-overlay"></div>
     </div>
 
-    <nav>
-      <div class="logo">
-        <img src="assets/logo.png" alt="InvoAIce" />
-        <span>InvoAIce</span>
-      </div>
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <img src="assets/logo.png" alt="InvoAIce" />
 
-      <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
+          <span>InvoAIce</span>
+        </a>
+
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+
+          <a href="privacy.html">Privacy</a>
+
+          <a href="terms.html">Terms</a>
+
+          <a href="support.html" class="active">Support</a>
+        </div>
+
+        <a href="index.html" class="nav-button"> Back to Website </a>
       </div>
     </nav>
 
     <section class="features">
-      <h1 style="font-size: 58px; text-align: center; margin-bottom: 20px">
-        Support
-      </h1>
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag"> SUPPORT </span>
 
-      <p class="section-description">Need help? We're here to assist you.</p>
+          <h2>We're Here To Help</h2>
 
-      <div
-        class="card"
-        style="max-width: 900px; margin: auto; text-align: center"
-      >
-        <h2>Contact Support</h2>
+          <p>
+            Need help with InvoAIce? Whether you have a question, found a bug,
+            or need assistance with your account, we're happy to help.
+          </p>
+        </div>
 
-        <p>
-          If you experience any issues, have feature requests, or need
-          assistance using InvoAIce, feel free to contact us.
-        </p>
+        <div class="feature-card legal-card">
+          <h2>📧 Contact Support</h2>
 
-        <br />
+          <p>
+            If you experience any issues, have feature requests, or need
+            assistance using InvoAIce, please contact us anytime.
+          </p>
 
-        <h3 style="font-size: 28px; margin-bottom: 12px">
-          📧 aurenix.apps@gmail.com
-        </h3>
+          <p style="margin-top: 24px">
+            <strong>Email</strong>
 
-        <p>We aim to respond within <strong>24–48 business hours.</strong></p>
+            <br /><br />
 
-        <br />
+            <a href="mailto:aurenix.apps@gmail.com"> aurenix.apps@gmail.com </a>
+          </p>
 
-        <a class="primary" href="mailto:aurenix.apps@gmail.com">
-          Email Support
-        </a>
-      </div>
+          <p style="margin-top: 20px">
+            We usually respond within
+            <strong>24–48 business hours.</strong>
+          </p>
 
-      <div style="height: 50px"></div>
+          <div style="margin-top: 32px">
+            <a href="mailto:aurenix.apps@gmail.com" class="primary-btn">
+              Email Support
+            </a>
+          </div>
+        </div>
 
-      <div class="card" style="max-width: 900px; margin: auto">
-        <h2>Frequently Asked Questions</h2>
+        <div class="feature-card legal-card">
+          <h2>❓ Frequently Asked Questions</h2>
 
-        <br />
+          <h3>How do I create an invoice?</h3>
 
-        <h3>How do I create an invoice?</h3>
+          <p>
+            Tap the "+" button on the Home screen and create an invoice manually
+            or let AI generate one from text or voice.
+          </p>
 
-        <p>
-          Tap the <strong>+</strong> button on the Home screen and either create
-          an invoice manually or use AI to generate one from a description or
-          voice input.
-        </p>
+          <hr
+            style="margin: 28px 0; border: none; border-top: 1px solid #e2e8f0"
+          />
 
-        <br />
+          <h3>How do AI invoices work?</h3>
 
-        <h3>How do AI invoices work?</h3>
+          <p>
+            Describe your invoice naturally and InvoAIce generates invoice
+            details automatically. Always review generated content before
+            sending it to clients.
+          </p>
 
-        <p>
-          Describe your invoice in natural language, and InvoAIce will generate
-          invoice details for you. Always review generated content before
-          sending it to clients.
-        </p>
+          <hr
+            style="margin: 28px 0; border: none; border-top: 1px solid #e2e8f0"
+          />
 
-        <br />
+          <h3>Where is my data stored?</h3>
 
-        <h3>Where is my data stored?</h3>
+          <p>
+            Invoices, business information and settings are securely stored
+            using Firebase Cloud Firestore when Cloud Sync is enabled.
+          </p>
+        </div>
 
-        <p>
-          Your invoices and business information are securely stored using
-          Firebase Cloud Firestore when cloud sync is enabled.
-        </p>
+        <div class="feature-card legal-card">
+          <h2>📄 More Questions</h2>
 
-        <br />
+          <h3>Can I export invoices as PDF?</h3>
 
-        <h3>Can I export invoices as PDF?</h3>
+          <p>
+            Yes. Every invoice can be exported as a professional PDF that's
+            ready to share with your clients.
+          </p>
 
-        <p>
-          Yes. InvoAIce allows you to export professional PDF invoices that can
-          be shared with your clients.
-        </p>
+          <hr
+            style="margin: 28px 0; border: none; border-top: 1px solid #e2e8f0"
+          />
 
-        <br />
+          <h3>How do I delete my account?</h3>
 
-        <h3>How do I delete my account?</h3>
+          <p>
+            Open <strong>Settings → Account → Delete Account</strong>. Deleting
+            your account permanently removes your authentication account
+            together with your associated cloud data.
+          </p>
 
-        <p>
-          Go to <strong>Settings → Account → Delete Account</strong>. This
-          permanently removes your account and associated cloud data.
-        </p>
+          <hr
+            style="margin: 28px 0; border: none; border-top: 1px solid #e2e8f0"
+          />
 
-        <br />
+          <h3>How do I restore my subscription?</h3>
 
-        <h3>How do I restore my subscription?</h3>
+          <p>
+            Open the subscription screen and tap
+            <strong>Restore Purchases</strong> while signed in with the same
+            Apple ID used to purchase your subscription.
+          </p>
 
-        <p>
-          Open the subscription screen and tap
-          <strong>Restore Purchases</strong> while signed in with the same Apple
-          ID used to purchase your subscription.
-        </p>
-      </div>
+          <hr
+            style="margin: 28px 0; border: none; border-top: 1px solid #e2e8f0"
+          />
 
-      <div style="height: 50px"></div>
+          <h3>Is my data secure?</h3>
 
-      <div class="card" style="max-width: 900px; margin: auto">
-        <h2>App Information</h2>
+          <p>
+            Yes. Your data is protected using Firebase Authentication, Cloud
+            Firestore, encrypted communication, and industry-standard security
+            practices.
+          </p>
+        </div>
 
-        <p><strong>Application:</strong> InvoAIce</p>
+        <div class="feature-card legal-card">
+          <h2>ℹ️ App Information</h2>
 
-        <p><strong>Developer:</strong> Aurenix Apps</p>
+          <p>
+            <strong>Application</strong><br />
+            InvoAIce
+          </p>
 
-        <p><strong>Platform:</strong> iPhone (iOS)</p>
+          <br />
 
-        <p><strong>Current Status:</strong> Coming Soon on the App Store</p>
+          <p>
+            <strong>Developer</strong><br />
+            Aurenix Apps
+          </p>
 
-        <p><strong>Email:</strong> aurenix.apps@gmail.com</p>
+          <br />
+
+          <p>
+            <strong>Platform</strong><br />
+            iPhone (iOS)
+          </p>
+
+          <br />
+
+          <p>
+            <strong>Status</strong><br />
+            Coming Soon on the App Store
+          </p>
+
+          <br />
+
+          <p>
+            <strong>Support Email</strong><br />
+            <a href="mailto:aurenix.apps@gmail.com"> aurenix.apps@gmail.com </a>
+          </p>
+        </div>
       </div>
     </section>
 
     <footer>
-      <div>
-        <img src="assets/logo.png" alt="" />
+      <div class="container footer-grid">
+        <div>
+          <img src="assets/logo.png" alt="InvoAIce" class="footer-logo" />
 
-        <h3>InvoAIce</h3>
+          <h3>InvoAIce</h3>
 
-        <p>AI-powered invoice management for freelancers and businesses.</p>
-      </div>
+          <p>
+            AI-powered invoicing for freelancers, consultants, agencies and
+            modern businesses.
+          </p>
+        </div>
 
-      <div>
-        <h4>Links</h4>
+        <div>
+          <h4>Product</h4>
 
-        <a href="index.html">Home</a>
+          <a href="index.html#features">Features</a>
 
-        <a href="privacy.html">Privacy Policy</a>
+          <a href="index.html#screenshots">Screenshots</a>
 
-        <a href="terms.html">Terms & Conditions</a>
-      </div>
+          <a href="index.html#pricing">Pricing</a>
 
-      <div>
-        <h4>Contact</h4>
+          <a href="index.html#faq">FAQ</a>
+        </div>
 
-        <a href="mailto:aurenix.apps@gmail.com"> aurenix.apps@gmail.com </a>
+        <div>
+          <h4>Company</h4>
 
-        <p>© <span class="current-year"></span> Aurenix Apps</p>
+          <a href="privacy.html">Privacy Policy</a>
+
+          <a href="terms.html">Terms & Conditions</a>
+
+          <a href="support.html">Support</a>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+
+          <a href="mailto:aurenix.apps@gmail.com"> aurenix.apps@gmail.com </a>
+
+          <p>
+            Developed by
+            <strong>Aurenix Apps</strong>
+          </p>
+
+          <p>
+            ©
+            <span class="current-year"></span>
+            Aurenix Apps. All rights reserved.
+          </p>
+        </div>
       </div>
     </footer>
 

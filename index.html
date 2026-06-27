@@ -4,404 +4,359 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>InvoAIce | AI-Powered Invoice Generator</title>
+    <title>InvoAIce-AI Invoice Generator</title>
 
     <meta
       name="description"
-      content="Create professional invoices in seconds with AI. Generate invoices using text or voice, track payments, export PDFs and manage your business from your iPhone."
+      content="Create professional invoices in seconds with AI. Generate invoices from text or voice, export beautiful PDFs and manage your business anywhere."
     />
 
     <meta
       name="keywords"
-      content="Invoice App, AI Invoice, Invoice Generator, Invoice Maker, Business, Freelancer, iPhone"
+      content="Invoice App, AI Invoice Generator, Invoice Maker, Freelancer, Business, PDF Invoice, iPhone"
     />
 
     <meta name="author" content="Aurenix Apps" />
 
-    <link rel="stylesheet" href="css/style.css" />
-
-    <link rel="icon" href="assets/logo.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/logo.png?v=2"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://unpkg.com/lucide@latest"></script>
   </head>
 
   <body>
-    <!-- Background -->
-
     <div class="background">
-      <div class="gradient one"></div>
-      <div class="gradient two"></div>
+      <div class="gradient gradient-1"></div>
+
+      <div class="gradient gradient-2"></div>
+
       <div class="grid-overlay"></div>
     </div>
 
-    <!-- Navigation -->
+    <!-- ===========================
+Navigation
+=========================== -->
 
-    <nav class="navbar">
-      <div class="container nav-container">
+    <header class="navbar">
+      <div class="container nav-wrapper">
         <a href="#" class="logo">
           <img src="assets/logo.png" alt="InvoAIce" />
 
           <span>InvoAIce</span>
         </a>
 
-        <div class="nav-links">
+        <nav class="nav-links">
           <a href="#features">Features</a>
 
           <a href="#screenshots">Screenshots</a>
 
-          <a href="#pricing">Pricing</a>
-
           <a href="#faq">FAQ</a>
 
           <a href="support.html">Support</a>
-        </div>
+        </nav>
 
-        <a href="#" class="nav-button"> Download </a>
+        <a href="#" class="download-btn">  Download </a>
       </div>
-    </nav>
+    </header>
 
-    <!-- Hero -->
+    <!-- ===========================
+Hero
+=========================== -->
 
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-content">
-          <div class="hero-badge">
-            ✨ AI Powered • Voice Invoicing • PDF Export
+          <div class="hero-chip">
+            <i data-lucide="sparkles"></i>
+            <span>AI Powered Invoice Generator</span>
           </div>
 
           <h1>
-            The Smarter Way to
+            Create Professional
 
-            <span>Create Invoices</span>
+            <span>Invoices in Seconds</span>
 
-            on iPhone.
+            using AI.
           </h1>
 
           <p>
-            Generate professional invoices in seconds using AI or your voice.
-            Track payments, monitor revenue, export beautiful PDFs and keep
-            everything securely synced in one place.
+            Generate invoices from a simple text prompt or your voice. Export
+            beautiful PDFs, manage clients, monitor revenue, and keep everything
+            securely synced across your devices.
           </p>
 
           <div class="hero-buttons">
-            <a href="#" class="primary-btn">  Download Soon </a>
+            <a href="#" class="primary-button">  Download Soon </a>
 
-            <a href="#features" class="secondary-btn"> Explore Features </a>
+            <a href="#features" class="secondary-button"> Explore Features </a>
           </div>
 
           <div class="hero-stats">
             <div>
-              <h3>AI</h3>
+              <h2>AI</h2>
 
-              <span>Invoice Generation</span>
+              <span>Invoice Creation</span>
             </div>
 
             <div>
-              <h3>PDF</h3>
+              <h2>PDF</h2>
 
               <span>Professional Export</span>
             </div>
 
             <div>
-              <h3>Cloud</h3>
+              <h2>Cloud</h2>
 
               <span>Secure Sync</span>
             </div>
           </div>
         </div>
 
-        <div class="hero-image">
+        <div class="hero-phone">
           <div class="phone-glow"></div>
 
-          <img src="assets/screenshot1.png" alt="InvoAIce App" />
+          <img src="assets/screenshot1.png" alt="InvoAIce Screenshot" />
         </div>
       </div>
     </section>
 
-    <!-- Trusted Section -->
-
-    <section class="trusted">
-      <div class="container">
-        <p class="trusted-title">
-          Built for freelancers, consultants, agencies and small businesses
-        </p>
-
-        <div class="trusted-grid">
-          <div class="trusted-card">
-            <div class="icon">🤖</div>
-
-            <h3>AI Powered</h3>
-
-            <p>Generate complete invoices from a simple prompt.</p>
-          </div>
-
-          <div class="trusted-card">
-            <div class="icon">🎤</div>
-
-            <h3>Voice Input</h3>
-
-            <p>Speak naturally and let AI prepare the invoice.</p>
-          </div>
-
-          <div class="trusted-card">
-            <div class="icon">📊</div>
-
-            <h3>Reports</h3>
-
-            <p>Track revenue, overdue invoices and business growth.</p>
-          </div>
-
-          <div class="trusted-card">
-            <div class="icon">☁️</div>
-
-            <h3>Cloud Sync</h3>
-
-            <p>Your invoices stay backed up securely with Firebase.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Features -->
+    <!-- ===========================
+Features
+=========================== -->
 
     <section id="features" class="features">
       <div class="container">
         <div class="section-header">
-          <span class="section-tag">POWERFUL FEATURES</span>
+          <span> POWERFUL FEATURES </span>
 
-          <h2>Everything You Need To Manage Your Business</h2>
+          <h2>Everything You Need To Run Your Business</h2>
 
           <p>
-            From creating invoices to tracking payments and exporting PDFs,
-            InvoAIce gives you every essential tool in one modern app.
+            Built for freelancers, consultants, agencies and small businesses.
+            Every tool you need lives inside one beautiful app.
           </p>
         </div>
 
-        <div class="feature-grid">
-          <div class="feature-card">
-            <div class="feature-icon">🤖</div>
+        <div class="bento-grid">
+          <!-- AI -->
 
-            <h3>AI Invoice Generator</h3>
+          <div class="feature-card feature-large">
+            <div class="feature-text">
+              <div class="feature-badge">
+                <i data-lucide="sparkles"></i>
 
-            <p>Create complete invoices instantly from a simple text prompt.</p>
+                <span>AI</span>
+              </div>
+
+              <h3>AI Invoice Generator</h3>
+
+              <p>
+                Describe your invoice in plain English. InvoAIce automatically
+                creates a complete professional invoice in seconds.
+              </p>
+            </div>
+
+            <img src="assets/aiinvoicescreenshot.png" alt="AI Invoice" />
           </div>
 
+          <!-- Voice -->
+
           <div class="feature-card">
-            <div class="feature-icon">🎤</div>
+            <div class="feature-badge">
+              <i data-lucide="mic"></i>
+              <span>Voice</span>
+            </div>
 
             <h3>Voice Invoice</h3>
 
-            <p>Simply describe your invoice and let AI handle the rest.</p>
+            <p>
+              Speak naturally. AI listens and creates your invoice
+              automatically.
+            </p>
           </div>
 
-          <div class="feature-card">
-            <div class="feature-icon">📄</div>
+          <!-- PDF -->
 
-            <h3>Professional PDF</h3>
+          <div class="feature-card feature-large">
+            <div class="feature-text">
+              <div class="feature-badge">
+                <i data-lucide="file-text"></i>
+                <span>PDF</span>
+              </div>
 
-            <p>Generate clean PDF invoices ready to send to clients.</p>
+              <h3>Professional PDF Export</h3>
+
+              <p>
+                Export clean, professional invoices ready to send to your
+                clients.
+              </p>
+            </div>
+
+            <img src="assets/invoicePDFscreenshot.png" alt="PDF Export" />
           </div>
 
+          <!-- Reports -->
+
           <div class="feature-card">
-            <div class="feature-icon">📊</div>
+            <div class="feature-badge">
+              <i data-lucide="chart-column"></i>
+              <span>Reports</span>
+            </div>
 
-            <h3>Business Reports</h3>
+            <h3>Business Insights</h3>
 
-            <p>Revenue charts, invoice status, top clients and insights.</p>
+            <p>Track revenue, invoice status and business performance.</p>
           </div>
 
+          <!-- Currency -->
+
           <div class="feature-card">
-            <div class="feature-icon">🌍</div>
+            <div class="feature-badge">
+              <i data-lucide="globe"></i>
+              <span>Global</span>
+            </div>
 
-            <h3>Multi Currency</h3>
+            <h3>Multiple Currencies</h3>
 
-            <p>Invoice clients using different currencies with ease.</p>
+            <p>Invoice international clients using their preferred currency.</p>
           </div>
 
+          <!-- Cloud -->
+
           <div class="feature-card">
-            <div class="feature-icon">☁️</div>
+            <div class="feature-badge">
+              <i data-lucide="cloud"></i>
+              <span>Sync</span>
+            </div>
 
             <h3>Cloud Sync</h3>
 
-            <p>Your invoices stay securely synchronized across devices.</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon">🔒</div>
-
-            <h3>Secure Login</h3>
-
-            <p>Sign in with Apple or Google using Firebase Authentication.</p>
-          </div>
-
-          <div class="feature-card">
-            <div class="feature-icon">⚡</div>
-
-            <h3>Fast Workflow</h3>
-
-            <p>Create and send invoices in less than a minute.</p>
+            <p>Secure synchronization using Firebase.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Screenshots -->
+    <!-- ===========================
+Screenshots
+=========================== -->
 
     <section id="screenshots" class="screenshots">
       <div class="container">
         <div class="section-header">
-          <span class="section-tag">APP PREVIEW</span>
+          <span>APP PREVIEW</span>
 
-          <h2>Designed For iPhone</h2>
+          <h2>Beautiful On Every Screen</h2>
 
           <p>
-            Every screen is carefully crafted for speed, simplicity and a
-            premium Apple-like experience.
+            Designed specifically for iPhone with a clean interface, smooth
+            animations and powerful productivity tools.
           </p>
         </div>
 
-        <div class="phone-gallery">
-          <img src="assets/screenshot1.png" alt="Dashboard" />
+        <div class="screenshots-grid">
+          <div class="phone-card">
+            <img src="assets/screenshot1.png" alt="Dashboard" />
+          </div>
 
-          <img src="assets/screenshot2.png" alt="Invoices" />
+          <div class="phone-card offset">
+            <img src="assets/screenshot2.png" alt="Invoices" />
+          </div>
 
-          <img src="assets/screenshot3.png" alt="AI Invoice" />
+          <div class="phone-card">
+            <img src="assets/screenshot3.png" alt="AI Invoice" />
+          </div>
 
-          <img src="assets/screenshot4.png" alt="Reports" />
+          <div class="phone-card offset">
+            <img src="assets/screenshot4.png" alt="Reports" />
+          </div>
 
-          <img src="assets/screenshot5.png" alt="Settings" />
+          <!-- <div class="phone-card">
+            <img src="assets/screenshot5.png" alt="Settings" />
+          </div> -->
         </div>
       </div>
     </section>
 
-    <!-- How It Works -->
+    <!-- ===========================
+How It Works
+=========================== -->
 
-    <section class="how-it-works">
+    <section class="workflow">
       <div class="container">
         <div class="section-header">
-          <span class="section-tag">HOW IT WORKS</span>
+          <span>HOW IT WORKS</span>
 
-          <h2>Create An Invoice In Three Steps</h2>
+          <h2>Create Your First Invoice In Less Than A Minute</h2>
+
+          <p>
+            No complicated setup. Just describe your invoice and let AI do the
+            work.
+          </p>
         </div>
 
-        <div class="steps">
-          <div class="step-card">
-            <div class="step-number">01</div>
+        <div class="workflow-grid">
+          <div class="workflow-card">
+            <div class="step">01</div>
 
             <h3>Describe</h3>
 
-            <p>Type your invoice details or simply use your voice.</p>
+            <p>Type your invoice naturally or use voice input.</p>
           </div>
 
-          <div class="step-card">
-            <div class="step-number">02</div>
+          <div class="workflow-card">
+            <div class="step">02</div>
 
-            <h3>AI Generates</h3>
+            <h3>AI Creates</h3>
 
-            <p>AI automatically creates a complete professional invoice.</p>
+            <p>InvoAIce automatically generates a complete invoice.</p>
           </div>
 
-          <div class="step-card">
-            <div class="step-number">03</div>
+          <div class="workflow-card">
+            <div class="step">03</div>
 
-            <h3>Export & Share</h3>
+            <h3>Export & Send</h3>
 
-            <p>Export a beautiful PDF and send it to your client instantly.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Pricing -->
-    <section id="pricing" class="pricing">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">PRICING</span>
-
-          <h2>Choose The Plan That Fits You</h2>
-
-          <p>
-            Start for free and upgrade whenever you need unlimited invoices and
-            premium AI features.
-          </p>
-        </div>
-
-        <div class="pricing-grid">
-          <div class="pricing-card">
-            <span class="plan">Free</span>
-
-            <h3>$0</h3>
-
-            <p>Perfect for getting started.</p>
-
-            <ul>
-              <li>✓ 5 Invoices</li>
-              <li>✓ AI Invoice Generation</li>
-              <li>✓ Voice Invoice</li>
-              <li>✓ Cloud Sync</li>
-              <li>✓ PDF Export</li>
-            </ul>
-
-            <a href="#" class="secondary-btn">Coming Soon</a>
-          </div>
-
-          <div class="pricing-card featured">
-            <div class="popular">MOST POPULAR</div>
-
-            <span class="plan">Pro</span>
-
-            <h3>$6.99<span>/month</span></h3>
-
-            <p>Everything you need to run your business.</p>
-
-            <ul>
-              <li>✓ Unlimited Invoices</li>
-              <li>✓ 100 AI Invoices / Month</li>
-              <li>✓ Voice Invoice</li>
-              <li>✓ Advanced Reports</li>
-              <li>✓ PDF Export</li>
-              <li>✓ Multiple Currencies</li>
-              <li>✓ Priority Support</li>
-            </ul>
-
-            <a href="#" class="primary-btn">Coming Soon</a>
+            <p>Download a professional PDF and send it instantly.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- FAQ -->
+    <!-- ===========================
+FAQ
+=========================== -->
 
     <section id="faq" class="faq">
       <div class="container">
         <div class="section-header">
-          <span class="section-tag">FAQ</span>
+          <span>FAQ</span>
 
           <h2>Frequently Asked Questions</h2>
         </div>
 
-        <div class="faq-grid">
+        <div class="faq-list">
           <div class="faq-item">
-            <h3>Which devices are supported?</h3>
-
-            <p>
-              InvoAIce is built exclusively for iPhone and supports modern
-              versions of iOS.
-            </p>
-          </div>
-
-          <div class="faq-item">
-            <h3>Can AI generate invoices automatically?</h3>
+            <h3>Can AI really generate invoices?</h3>
 
             <p>
               Yes. Simply describe your invoice using text or voice and AI
-              creates a complete invoice for you.
+              creates it automatically.
             </p>
           </div>
 
@@ -409,8 +364,8 @@
             <h3>Can I export PDF invoices?</h3>
 
             <p>
-              Absolutely. Every invoice can be exported as a professional PDF
-              ready to send to clients.
+              Every invoice can be exported as a professional PDF ready to send
+              to clients.
             </p>
           </div>
 
@@ -418,47 +373,37 @@
             <h3>Is my data secure?</h3>
 
             <p>
-              Yes. Authentication and cloud synchronization are powered by
-              Firebase using industry-standard security.
+              Authentication and cloud synchronization are powered by Firebase
+              using industry-standard security.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Does InvoAIce support multiple currencies?</h3>
+
+            <p>
+              Yes. Create invoices using different currencies for international
+              clients.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Final CTA -->
-
-    <section class="download-cta">
-      <div class="container">
-        <div class="cta-card">
-          <h2>Spend Less Time On Invoices.</h2>
-
-          <p>
-            Create professional invoices in seconds with AI and focus on growing
-            your business.
-          </p>
-
-          <div class="hero-buttons">
-            <a href="#" class="primary-btn">  Coming Soon on the App Store </a>
-
-            <a href="#features" class="secondary-btn"> Learn More </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
+    <!-- ===========================
+Footer
+=========================== -->
 
     <footer>
       <div class="container footer-grid">
         <div>
-          <img src="assets/logo.png" alt="InvoAIce" class="footer-logo" />
+          <img src="assets/logo.png" class="footer-logo" alt="InvoAIce" />
 
           <h3>InvoAIce</h3>
 
           <p>
-            AI-powered invoicing for freelancers, agencies and modern
-            businesses.
+            AI-powered invoicing for freelancers, consultants, creators and
+            small businesses.
           </p>
         </div>
 
@@ -468,8 +413,6 @@
           <a href="#features">Features</a>
 
           <a href="#screenshots">Screenshots</a>
-
-          <a href="#pricing">Pricing</a>
 
           <a href="#faq">FAQ</a>
         </div>
@@ -489,16 +432,24 @@
 
           <a href="mailto:aurenix.apps@gmail.com"> aurenix.apps@gmail.com </a>
 
-          <p>Developed by <strong>Aurenix Apps</strong></p>
+          <p>
+            Developed by
+            <strong>Aurenix Apps</strong>
+          </p>
 
           <p>
-            © <span class="current-year"></span> Aurenix Apps. All rights
-            reserved.
+            ©
+            <span class="current-year"></span>
+
+            Aurenix Apps. All rights reserved.
           </p>
         </div>
       </div>
     </footer>
 
     <script src="js/script.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
   </body>
 </html>

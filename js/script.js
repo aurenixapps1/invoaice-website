@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // -----------------------------
 
   const revealItems = document.querySelectorAll(
-    ".feature-card, .trusted-card, .pricing-card, .faq-item, .step-card",
+    ".feature-card, .highlight-card, .price-card, .faq-item, .workflow-card",
   );
 
   revealItems.forEach((item) => {
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Phone Floating Animation
   // -----------------------------
 
-  const phone = document.querySelector(".hero-image img");
+  const phone = document.querySelector(".hero-phone img");
 
   if (phone) {
     let direction = 1;
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Screenshot Hover
   // -----------------------------
 
-  document.querySelectorAll(".phone-gallery img").forEach((img) => {
+  document.querySelectorAll(".phone-card img").forEach((img) => {
     img.addEventListener("mouseenter", () => {
       img.style.zIndex = "5";
     });
@@ -156,4 +156,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-

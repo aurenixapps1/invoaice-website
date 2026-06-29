@@ -1,5 +1,6 @@
 /*====================================================
 InvoAIce Website
+Designed for Launch
 ====================================================*/
 
 :root {
@@ -214,21 +215,23 @@ Navigation
 }
 
 .nav-wrapper {
-  height: 82px;
-
   display: flex;
-
-  justify-content: space-between;
-
   align-items: center;
+  justify-content: space-between;
+  height: 82px;
 }
 
 .logo {
   display: flex;
-
   align-items: center;
-
   gap: 14px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 54px;
+  margin-left: auto;
 }
 
 .logo img {
@@ -243,12 +246,6 @@ Navigation
   font-size: 1.8rem;
   font-weight: 800;
   line-height: 1;
-}
-
-.nav-links {
-  display: flex;
-
-  gap: 34px;
 }
 
 .nav-links a {
@@ -488,6 +485,8 @@ FEATURES (BENTO GRID)
 .feature-card {
   position: relative;
 
+  text-align: center;
+
   overflow: hidden;
 
   background: linear-gradient(
@@ -512,14 +511,6 @@ FEATURES (BENTO GRID)
 
   justify-content: space-between;
 }
-
-/* .feature-card:hover {
-  transform: translateY(-10px);
-
-  box-shadow: var(--shadow-lg);
-
-  border-color: rgba(99, 102, 241, 0.25);
-} */
 
 .feature-card:hover {
   transform: translateY(-8px) scale(1.02);
@@ -1118,4 +1109,70 @@ SMOOTH ANIMATIONS
   stroke-width: 2.2;
 
   color: var(--primary);
+}
+
+/*=========================
+LEGAL PAGES
+=========================*/
+
+.legal-page .section-header,
+.legal-page .feature-card,
+.legal-page .legal-card {
+  text-align: center;
+}
+
+.legal-page .feature-card {
+  align-items: center;
+}
+
+.legal-page .feature-card p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.legal-page .feature-card h2,
+.legal-page .feature-card h3,
+.legal-page .feature-card a {
+  text-align: center;
+}
+
+/*==================================
+LEGAL PAGE SPACING
+==================================*/
+
+.legal-page .legal-card {
+  margin-top: 56px;
+  padding: 64px 72px;
+}
+
+.legal-page .legal-card:first-of-type {
+  margin-top: 0;
+}
+
+.legal-page .legal-card h2 {
+  margin-bottom: 32px;
+}
+
+.legal-page .legal-card h3 {
+  margin-top: 34px;
+  margin-bottom: 14px;
+}
+
+.legal-page .legal-card h3:first-of-type {
+  margin-top: 0;
+}
+
+.legal-page .legal-card p {
+  max-width: 720px;
+  margin: 0 auto 24px;
+  line-height: 1.9;
+}
+
+.legal-page .legal-card ul {
+  margin-top: 20px;
+}
+
+.legal-page .legal-card li {
+  margin-bottom: 16px;
+  line-height: 1.8;
 }
